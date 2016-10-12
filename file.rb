@@ -13,3 +13,4 @@ body = Nokogiri::HTML(page.body)
 body.xpath('//td//text()').each do |node|
 	puts node if node.to_s.include? "no classes"
 end
+#change
